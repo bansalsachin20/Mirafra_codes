@@ -1,0 +1,13 @@
+//What is Difference 
+
+1.char *p="Hello"
+2.char s[]="Hello"
+
+1.char *p="Hello"
+	>Pointer Pointing to String which is Stored in Read Only Memory of Data segment. 
+	>This String cannot be Modified.
+2. char s[]="Hello"
+	>Hello string is stored in an Array s[]. 
+	>This is Stored in stack segment on Memory. 
+	>This String is Modifiable.
+
